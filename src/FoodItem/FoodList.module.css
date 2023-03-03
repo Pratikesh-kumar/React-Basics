@@ -1,0 +1,10 @@
+.description{
+   max-width: 60rem;
+   width:90%;
+   margin: 2rem auto;
+}
+.description ul{
+   list-style: none;
+   color:black;
+
+}

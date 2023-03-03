@@ -1,0 +1,12 @@
+.btn{
+  background-color: rgb(26, 28, 27);
+  font-style: italic;
+  color: antiquewhite;
+
+}
+.container{
+  width: 100%;
+  position: absolute;
+  margin-right: 50%;
+  background-color: aquamarine;
+}

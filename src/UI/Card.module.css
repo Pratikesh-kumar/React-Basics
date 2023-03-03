@@ -1,0 +1,9 @@
+.card{
+    max-width: 60rem;
+    width: 90%;
+    text-align: left;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: auto;
+}

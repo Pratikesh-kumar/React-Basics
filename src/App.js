@@ -1,22 +1,16 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './App.css';
+import Header from './Header/Header';
+import Items from './FoodItem/Items';
 
 function App() {
-  const[NameInput,setValue]=useState("rahul")
-  // let  NameInput= "pratikesh";
-  const onClickHandler =()=>{
-    console.log("hello");
-    setValue('pk');
-
-  }
   return(
-    <>
-    <div className='container'>
-      <p>hello{NameInput}</p>
-     <button className="btn" onClick={onClickHandler}>click me </button>
-    
-     </div>
-    </>
+  <div>
+   <Header/>
+       <main>
+        <Items/>
+        </main>
+   </div>
   )
 }
 
