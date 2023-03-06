@@ -11,7 +11,7 @@ import classes from './Header.module.css';
          <Fragment>
           <header className={classes.header}>
              <h2>BARATIE ONBOARD</h2>
-            <HeaderCartButton/>
+            <HeaderCartButton onClickHeaderBtn={props.onShowCart}/>
           </header>
           <div className={classes['main-image']}>
             <img src={bgImage} alt="Shop"/>

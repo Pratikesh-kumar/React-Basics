@@ -1,6 +1,6 @@
 import Card from '../UI/Card';
 import classes from './FoodList.module.css';
-
+import ListItem from './ListItem/ListItem';
 
 const DUMMY_LIST = [
     {
@@ -17,7 +17,7 @@ const DUMMY_LIST = [
     },
     {
       id: 'a3',
-      name: 'chicen curry',
+      name: 'chicken curry',
       description: 'with indian spices',
       price: 400,
     },
@@ -37,7 +37,12 @@ const DUMMY_LIST = [
   ];
   
 const FoodList=()=>{
-   const List= DUMMY_LIST.map((food)=><li>{food.name}</li>)
+   const List= DUMMY_LIST.map((food)=>(<ListItem
+   key={food.id}
+   name={food.name}
+   description={food.description}
+   price={food.price}
+   />))
     return(
       <Card>
     <section  className={classes.description}>
