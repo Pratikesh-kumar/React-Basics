@@ -4,7 +4,7 @@
     border: none;
     background-color: #056db0;
     color: white;
-    padding: .50rem 3rem;
+    padding: 0.75rem 3rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,7 +24,7 @@
   }
   
   .badge {
-    background-color: #055bb0 ;
+    background-color: #055bb0 !important;
     padding: 0.25rem 1rem;
     border-radius: 25px;
     margin-left: 1rem;

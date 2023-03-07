@@ -1,11 +1,11 @@
-.main {
+.tea {
     display: flex;
     justify-content: space-between;
     margin: 1rem;
     border-bottom: 1px solid #ccc;
   }
   
-  .main h3 {
+  .tea h3 {
     margin: 0 0 0.25rem 0;
   }
   
